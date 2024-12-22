@@ -7,7 +7,8 @@ def game(s1, s2, step):
         return False
 
     if step % 2 == 0:
-        return game(s1 + 1, s2 step + 1) and game(s1 + 1, s2, step + 1)game(s1 + 1, s2 step + 1) and game(s1 * 2, s2, step + 1)
+        return game(s1 + 1, s2, step + 1) and game(s1 + 1, s2, step + 1) and game(s1 + 1, s2, step + 1) and game(s1 * 2, s2, step + 1)
     else:
         return game(s + 1, step + 1) or game(s * 2, step + 1)
 
+#ЭТО НЕ РЕШЕНИЕ, РЕШАЛ НА БУМАЖКЕ!!
