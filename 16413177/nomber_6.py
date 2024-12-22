@@ -5,5 +5,5 @@ for x in range(100, 1000):
         otv = int(str(s1) + str(s2))
     else:
         otv = int(str(s2) + str(s1))
-    if otv > 714:
+    if otv == 714:
         print(x, otv)

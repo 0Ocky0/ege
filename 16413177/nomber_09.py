@@ -1,4 +1,4 @@
-f = open('09.txt')
+f = open('../23092024/09.txt')
 count = 0
 for s in f:
     a = list(map(int, s.split()))

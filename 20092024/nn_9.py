@@ -1,7 +1,7 @@
-f = open('09.txt')
+f = open('../16413177/99.csv')
 cnt = 0
 for i in f:
-    a = list(map(int,i.split()))
+    a = list(map(int,i.split(',')))
     if len(a) != len(set(a)):
         sr1 = 0
         k1 = 0
