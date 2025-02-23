@@ -14,7 +14,6 @@ def centr(cluster):
             final_centroid = centroid
     return final_centroid
 
-
 f = open('demo_2025_27_Б.txt')
 k1, k2, k3 = [], [], []
 for line in f:
