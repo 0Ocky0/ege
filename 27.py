@@ -27,13 +27,14 @@
 # print(a1)
 # print(a2)
 # print(maxim)
-from itertools import *
 
-f = open('27-A (1).txt')
-s = f.readlines()
-mi = 999999999
-for p in combinations(s, 3):
-    sus = sum(map(int,p))
-    if sus % 3 and sus < mi:
-        mi = sus
-        print(mi)
+# from itertools import *
+#
+# # f = open('27-A (1).txt')
+# # s = f.readlines()
+# # mi = 999999999
+# # for p in combinations(s, 3):
+# #     sus = sum(map(int,p))
+# #     if sus % 3 and sus < mi:
+# #         mi = sus
+# #         print(mi)
